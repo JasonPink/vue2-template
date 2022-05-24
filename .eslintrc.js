@@ -1,14 +1,7 @@
+// npx eslint --init
 module.exports = {
   root: true,
-  //   extends: [
-  //     'eslint:recommended',
-  //     'plugin:vue/recommended',
-  //     'plugin:prettier/recommended',
-  //   ],
   extends: ['plugin:vue/essential', 'eslint:recommended', '@vue/prettier'],
-  //   parserOptions: {
-  //     parser: 'babel-eslint'
-  //   },
   env: {
     browser: true,
     node: true,
@@ -23,6 +16,7 @@ module.exports = {
   rules: {
     'no-console': 0,
     'vue/multi-word-component-names': 0,
+    // 'comma-dangle': 0,
   },
   //   rules: {
   //     'no-param-reassign': 0,
