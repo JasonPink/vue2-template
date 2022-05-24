@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">{{ 'Home' | formatNum2 }}</router-link>
       <router-link to="/about">{{ 'About' | formatNum }}</router-link>
-      <button v-copy="'email'">复制ss</button>
+      <el-button v-copy="'email'">复制ss</el-button>
     </div>
     <router-view />
   </div>
