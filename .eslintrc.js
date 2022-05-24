@@ -16,7 +16,6 @@ module.exports = {
   rules: {
     'no-console': 0,
     'vue/multi-word-component-names': 0,
-    // 'comma-dangle': 0,
   },
   //   rules: {
   //     'no-param-reassign': 0,
