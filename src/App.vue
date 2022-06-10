@@ -19,6 +19,7 @@ export default {
 }
 </script>
 <style lang="scss">
+@import './styles/index.scss';
 #app {
   background: $bgColor;
   font-family: Avenir, Helvetica, Arial, sans-serif;
