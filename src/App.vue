@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">{{ 'Home' | formatNum2 }}</router-link>
+    <!-- <div id="nav"> -->
+    <!-- <router-link to="/">{{ 'Home' | formatNum2 }}</router-link>
       <router-link to="/about">{{ 'About' | formatNum }}</router-link>
-      <el-button v-copy="'email'">复制ss</el-button>
-    </div>
+      <el-button v-copy="'email'">复制ss</el-button> -->
+    <!-- </div> -->
     <router-view />
   </div>
 </template>
@@ -20,6 +20,11 @@ export default {
 </script>
 <style lang="scss">
 @import './styles/index.scss';
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
 #app {
   background: $bgColor;
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -27,6 +32,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  height: 100%;
 }
 
 #nav {
